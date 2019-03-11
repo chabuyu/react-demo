@@ -1,0 +1,58 @@
+.header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px dashed #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .logo{
+    width: 100px;
+    height: 100%;
+    // img{
+    //   width: 100%;
+    //   height: 100%;
+    // }
+    background: url(../assimg/timg.jpeg) no-repeat center center;
+    background-size: 100% 100%;
+
+  }
+  .login{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 160px;
+    height: 100%;
+
+  }
+}
+.content{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: fixed;
+  top: 64px;
+  left: 0;
+  .menu{
+    width: 160px;
+    height: 100%;
+    border-right: 1px #ccc solid;
+  }
+  .main{
+    flex: 1;
+    min-height: 100%;
+    width: 100%;
+    padding-bottom: 60px;
+  }
+}
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 40px;
+  line-height: 5px;
+}
