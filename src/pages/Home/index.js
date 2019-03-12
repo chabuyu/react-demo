@@ -25,12 +25,12 @@ export default class Home extends Component {
   render() {
     return (
       <Card title="主页" className='home'>
-        <Slider {...settings}>
-          <Carousel className='carousel-wrap' autoplay vertical='true' >
-            <div className='carousel'><a href="" className='carousel-href'> <span className='carousel-img'></span></a></div>
-            <div className='carousel'><a href="" className='carousel-href'> <span className='carousel-img'></span></a></div>
-            <div className='carousel'><a href="" className='carousel-href'> <span className='carousel-img'></span></a></div>
-            <div className='carousel'><a href="" className='carousel-href'> <span className='carousel-img'></span></a></div>
+        <Slider {...settings} className='slider'>
+          <Carousel className='carousel-wrap' autoplay >
+            <div className='carousel carousel-a'><h1>a</h1> </div>
+            <div className='carousel carousel-b'><h1>b</h1><a href="" className='carousel-href'> <span className='carousel-img2 carousel-img'></span></a></div>
+            <div className='carousel carousel-c'><h1>c</h1><a href="" className='carousel-href'> <span className='carousel-img3 carousel-img'></span></a></div>
+            <div className='carousel carousel-d'><h1>d</h1><a href="" className='carousel-href'> <span className='carousel-img4 carousel-img'></span></a></div>
           </Carousel>
         </Slider>
         <ul className='card'>
